@@ -70,7 +70,6 @@ export default {
     0px 6px 10px rgba(0, 0, 0, 0.02);
   border-radius: 4px;
   position: relative;
-  margin-right: 16px;
   &:last-child {
     margin-right: 0;
   }
