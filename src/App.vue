@@ -44,4 +44,39 @@ export default {
     display: flex;
   }
 }
+@media screen and (max-width: 1439px) {
+  .app {
+    width: 1140px;
+  }
+  .content {
+    &__card {
+      flex-basis: 49%;
+    }
+  }
+}
+@media screen and (max-width: 1199px) {
+  .app {
+    width: 950px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .app {
+    width: 650px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .app {
+    width: 400px;
+    padding: 10px;
+    &-wrap {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+}
+@media screen and (max-width: 419px) {
+  .app {
+    width: 100%;
+  }
+}
 </style>

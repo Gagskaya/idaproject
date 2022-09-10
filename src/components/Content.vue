@@ -36,4 +36,19 @@ export default {
   flex-wrap: wrap;
   justify-content: space-between;
 }
+@media screen and (max-width: 1199px) {
+  .content {
+    flex-basis: 65%;
+  }
+}
+@media screen and (max-width: 991px) {
+  .content {
+    flex-basis: 50%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .content {
+    flex-basis: 100%;
+  }
+}
 </style>

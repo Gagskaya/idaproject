@@ -197,4 +197,20 @@ export default {
     }
   }
 }
+@media screen and (max-width: 1199px) {
+  .sidebar {
+    flex-basis: 35%;
+  }
+}
+@media screen and (max-width: 991px) {
+  .sidebar {
+    flex-basis: 50%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .sidebar {
+    flex-basis: 100%;
+    margin-bottom: 15px;
+  }
+}
 </style>

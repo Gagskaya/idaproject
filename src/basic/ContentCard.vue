@@ -63,7 +63,7 @@ export default {
 
 <style scoped lang="scss">
 .content__card {
-  flex-basis: 25%;
+  flex-basis: 32%;
   margin-bottom: 16px;
   background: #fffefb;
   box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.04),
@@ -83,7 +83,6 @@ export default {
   }
   &-header {
     &-img {
-      width: 332px;
       height: 200px;
       display: flex;
       justify-content: center;
@@ -119,6 +118,27 @@ export default {
         font-size: 24px;
         line-height: 30px;
       }
+    }
+  }
+}
+@media screen and (max-width: 1439px) {
+  .content {
+    &__card {
+      flex-basis: 49%;
+    }
+  }
+}
+@media screen and (max-width: 1199px) {
+  .content {
+    &__card {
+      flex-basis: 49%;
+    }
+  }
+}
+@media screen and (max-width: 991px) {
+  .content {
+    &__card {
+      flex-basis: 100%;
     }
   }
 }
