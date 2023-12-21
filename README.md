@@ -1,6 +1,6 @@
 # idaproject
 
-## Project setup
+## Шаги для запуска локально
 
 git clone https://github.com/Gagskaya/idaproject.git
 
